@@ -29,8 +29,9 @@ setup(
     entry_points={
         'bloom.generators': [],
         'bloom.generate_cmds': [
-            'homebrew = bloom_homebrew.generate_cmd:description',
-            'roshomebrew = bloom_homebrew.ros_generate_cmd:description'
+            'homebrew = bloom_homebrew.generate_cmd:description'
+#,
+#            'roshomebrew = bloom_homebrew.ros_generate_cmd:description'
         ]
     }
 )
