@@ -291,7 +291,8 @@ def generate_substitutions_from_package(
     # Name, Version, Description
     data['ClassName'] = formula_class_name(package.name, distro_name)
 
-    # todo: do we need something like deb_inc for homebrew???
+    # todo: do we need something like deb_inc for homebrew??? 
+    #       --> homebrew has 'revision' in the formula DSL
     data['Version'] = compose_version(package.version, deb_inc)
     # Repository
     data['RepoUrl'] = release_repo.url
