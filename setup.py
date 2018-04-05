@@ -10,7 +10,6 @@ setup(
     install_requires=[
         'argparse',
         'catkin-pkg >= 0.1.14',
-        'distribute',
         'empy',
         'python-dateutil',
         'bloom >= 0.4.4',
